@@ -43,7 +43,7 @@ This project involves building a systematic FX trading strategy using Purchasing
 
 3. **Trend Analysis**:
    - Metrics: Momentum (14-day), trend persistence (30-day R-squared), and price positioning (200-day SMA).
-   - Formula: \( TVI = w_1 \times Momentum + w_2 \times TrendPersistence + w_3 \times PricePosition \).
+   - Formula: TVI = $w_1 \times$ Momentum + $w_2 \times$ Trend Persistence + $w_3 \times$ Price Position.
 
 4. **G10 Currency Backtesting**:
    - Evaluate strategies across USD and non-USD base currencies.
@@ -54,7 +54,7 @@ This project involves building a systematic FX trading strategy using Purchasing
    - Apply thresholds for top/bottom 20% of buy/sell signals.
 
 6. **Composite Metric (NEO)**:
-   - Formula: \( NEO = 0.33 \times PPP + 0.33 \times RIR + 0.34 \times CAB \).
+   - Formula: NEO = $0.33 \times$ PPP + $0.33 \times$ RIR + $0.34 \times$ CABf.
    - Incorporates trade flows and investment attractiveness for robust currency valuation.
 
 ## Results and Insights
